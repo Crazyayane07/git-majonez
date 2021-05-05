@@ -1,0 +1,58 @@
+  262  mkdir git-majonez
+  263  ls
+  264  cd git-majonez/
+  265  ls
+  266  git init
+  267  touch main.cpp
+  268  g++ main.cpp 
+  269  ./a.out 
+  270  git status 
+  271  git add main.cpp 
+  272  git status 
+  273  git commit -m"Initial commit"
+  274  git log
+  275  git status
+  276  git add main.cpp 
+  277  git status
+  278  git commit -m"Farewell changed"
+  279  git log
+  280  git remote add origin https://github.com/Crazyayane07/git-majonez.git
+  281  git push -u origin master
+  282  git branch
+  283  git checkout -b cs
+  284  git branch
+  285  git log
+  286  git reset --hard 80a721553e141b131418cb0f5c020ab6ee7a1852
+  287  git log
+  288  git status
+  289  g++ main.cpp 
+  290  ./a.out 
+  291  git add main.cpp 
+  292  git status
+  293  git commit -m"Greetings"
+  294  git log
+  295  git push origin cs
+  296  git checkout master 
+  297  git branch 
+  298  git merge cs 
+  299  g++ main.cpp 
+  300  ./a.out 
+  301  git status 
+  302  git add main.cpp 
+  303  git status 
+  304  git commit
+  305  git log
+  306  touch history.txt
+  307  ls
+  308  history
+  309  history | tail -47
+  310  history | tail -n47
+  311  history | tail -n48
+  312  history | tail -n50
+  313  history | tail -n52
+  314  history | tail -n52 > history.txt 
+  315  cat history.txt 
+  316  history | tail -n54 > history.txt 
+  317  cat history.txt \
+  318  cat history.txt
+  319  history | tail -n58 > history.txt 
